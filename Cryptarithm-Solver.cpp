@@ -508,7 +508,7 @@ void solve()
     }
     while (next_permutation(digVals.begin(), digVals.end()));
     if (numSols == 0) cout << "No solutions found." << endl;
-    if (numSols == 1) cout << "1 solution found." << endl;
+    else if (numSols == 1) cout << "1 solution found." << endl;
     else cout << numSols << " solutions found." << endl;
 }
 
